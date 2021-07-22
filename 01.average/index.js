@@ -3,7 +3,6 @@ function solution(arr) {
   let limit = 0;
   for (let i = 0; i < arr.length; i++) {
     limit = limit + arr[i];
-    limit / arr.length;
   }
   return limit / arr.length;
 }
