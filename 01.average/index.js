@@ -1,3 +1,4 @@
+//평균 구하기
 //답1
 function solution(arr) {
   let limit = 0;

@@ -1,4 +1,4 @@
-// 제곱근구하기
+// 정수 제곱근 판별
 function solution(n) {
   let answer = 0;
   let aaa = Math.sqrt(n);

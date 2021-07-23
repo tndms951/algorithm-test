@@ -15,20 +15,3 @@ function solution(arr, divisor) {
 console.log(solution([5, 9, 7, 10], 5));
 console.log(solution([2, 36, 1, 3], 1));
 console.log(solution([3, 2, 6], 10));
-
-// 다시 해보기
-// function solution(arr, divisor) {
-//   let value = [];
-
-//   for (let i = 0; i < arr.length; i++) {
-//     if (arr % divisor === 0) {
-//       value.push([i]);
-//     } else {
-//       -1;
-//       console.log("엥");
-//     }
-//   }
-//   return value;
-// }
-
-// console.log(solution([5, 9, 7, 10], 5));

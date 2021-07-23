@@ -1,3 +1,4 @@
+// 자릿수 더하기
 // function solution(n) {
 //   let aaa = String(n).split("");
 //   let bbb = aaa.map((list) => Number(list));
@@ -7,7 +8,7 @@
 //   }
 //   return b;
 // }
-// console.log(solution(345));
+// console.log(solution(123));
 
 // reduce함수를 사용해서 간략하게 코드 변경
 function solution(n) {
@@ -16,4 +17,4 @@ function solution(n) {
 
   return bbb.reduce((a, b) => a + b, 0);
 }
-console.log(solution(345));
+console.log(solution(123));

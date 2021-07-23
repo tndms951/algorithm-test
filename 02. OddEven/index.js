@@ -1,10 +1,11 @@
-// 다른 알고리즘
+//짝수와홀수
 function solution(num) {
   return num % 2 === 0 ? "Even" : "Odd";
 }
 
 console.log(solution(3));
 
+// 다른풀이 방법
 // function solution(num) {
 //   let limit = 2;
 //   if (num % limit === 0) {
